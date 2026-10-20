@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- 本專案：機密與資料（不可 commit）----
+.env
+.env.*
+!.env.example
+
+# DATA_DIR 預設放在 repo 外；萬一放在 repo 裡，這些一律不 commit
+DATA_DIR/
+data/
+photos/
+records.xlsx
+state.db
